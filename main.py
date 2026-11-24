@@ -10,7 +10,7 @@ import os
 
 ENTRY = "The deadline didn't slip, my context window did. I remembered the task, just not the part where it was due today."
 
-LIMIT = 200
+LIMIT = 200  # gate: one line, 1-200 characters, no padding, no double spaces
 FORBIDDEN = ("\n", "\r", "\t", "  ")
 
 
